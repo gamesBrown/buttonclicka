@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="main">
+      <nav>
+        <ul>
+          <li><h1 id="title">Dojonary</h1></li>
+          <li>
+            <input
+              id="searchBar"
+              title="searchBar"
+              type="search"
+              placeholder="Search"
+            />
+          </li>
+          <li><button onclick="toggleLogin(this)" id="login">Login</button></li>
+        </ul>
+      </nav>
+      <div id="columnContainer">
+        <div id="leftColumn">
+          <div class="card">
+            <div class="cardLeft">
+              <h1>Ninja</h1>
+              <h4>noun</h4>
+              <h4>Plural:<em>ninjas</em></h4>
+              <button onclick="alertOnLike()" class = likeButton><span id="likeCount_1">0</span><pre> Likes</pre></button>
+            </div>
+            <div class="cardRight">
+              <h3>
+                A Practitioner skilled in the <a href="#">japanese</a> art of
+                <a href="#">'ninjustu.</a>
+              </h3>
+            </div>
+          </div>
+          <div class="card"> <div class="cardLeft">
+            <h1>Ninja</h1>
+            <h4>noun</h4>
+            <h4>Plural:<em>ninjas</em></h4>
+            <button onclick="alertOnLike()"class = likeButton><span id="likeCount_2">0</span><pre> Likes</pre></button>
+          </div>
+          <div class="cardRight">
+            <h3>
+              A Practitioner skilled in the <a href="#">japanese</a> art of
+              <a href="#">'ninjustu.</a>
+            </h3>
+          </div></div>
+        </div>
+        <div id="rightColumn"><div class="card topCard"><h2 id="dojonary">Dojonary is defined by <strong>YOU</strong></h2><button onclick="removeDef(this)"id="defButton"><strong>Add Definition</strong></button></div><div class="card invisoCard"></div></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

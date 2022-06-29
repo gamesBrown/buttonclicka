@@ -1,0 +1,156 @@
+*{
+    
+    margin:0;
+    padding:0;
+
+    font-family: cursive;
+    
+}
+.container{
+    
+    
+}
+#columnContainer{
+    display: flex;
+    height: 85%;
+    width: 100%;
+
+    
+   
+}
+.card{
+    display: flex;
+    flex:1;
+    background-color: white;
+    border: 2px solid black;
+
+}
+
+#main{
+    width: 800px;
+    height: 600px;
+
+    border:1px solid black;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+
+}
+
+nav{
+    background-color: grey;
+    height:15%;
+    display: flex;
+    
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    flex:1;
+}
+
+nav> ul li {
+    flex:1;
+    list-style-type: none;
+    
+    
+}
+#title{
+    margin-left: 10%;
+    font-size:xx-large;
+
+}
+#searchBar{
+    width: 100%;
+}
+#login{
+    margin-right: 20%;
+    float: right;
+    width: 60px;
+    background-color: blue;
+    color: white;
+    box-shadow: 2px 2px black;
+    
+
+}
+#leftColumn{
+    
+    flex:2;
+    display: flex;
+    flex-direction: column;
+    margin:5%;
+    gap: 2em;
+}
+.cardLeft{
+    flex: 1;
+    
+
+}
+.cardLeft>*{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardLeft>h1{
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+.cardRight{
+    flex:2;
+
+text-align: center;
+display: flex;
+}
+h3{
+    margin-top: 20%;
+    flex:1;
+    align-items: center;
+    font-size: medium;
+}
+h4{
+    flex:1;
+    color: grey;
+
+}
+.likeButton{
+    margin: 15%;
+    flex:1;
+    width: 70%;
+    background-color: palegoldenrod;
+    box-shadow: 2px 2px black;
+}
+
+
+
+#rightColumn{
+    
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    margin:5%;
+    
+}
+.topCard{
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+}
+#dojonary{
+    padding-left: 5%;
+    font-size: x-large;
+}
+#defButton{
+    margin: 15%;
+    
+    height: 30px;
+    background-color: greenyellow;
+    box-shadow: 2px 2px black;
+    
+}
+.invisoCard{
+    border: 0px;
+}
+
+
